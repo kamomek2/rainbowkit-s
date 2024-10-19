@@ -10,7 +10,7 @@ export interface TahoWalletOptions {
 
 declare global {
   interface Window {
-    BinanceChain: any;
+    bybitWallet: any;
   }
 }
 
@@ -29,7 +29,7 @@ export const bnbchainWallet = ({
   },
   installed:
     typeof window !== 'undefined' &&
-    typeof window.BinanceChain !== 'undefined'
+    typeof window.bybitWallet !== 'undefined'
       ? true
       : undefined,
   createConnector: () => {
@@ -41,7 +41,7 @@ export const bnbchainWallet = ({
             const getTaho = (tally?: any) =>
               tally? tally : undefined;
             if (typeof window === 'undefined') return;
-            return getTaho(window.BinanceChain);
+            return getTaho(window.bybitWallet);
           },
           ...options,
         },
