@@ -54,7 +54,7 @@ export const bnbchainWallet = ({
       mobile: 'https://okx.com/download',
       qrCode: 'https://okx.com/download',
       chrome:
-        'https://chrome.google.com/webstore/detail/okx-wallet/mcohilncbfahbmgdjkbpemcciiolgcge',
+        'https://chromewebstore.google.com/detail/bnb-chain-wallet/fhbohimaelbohpjbbldcngcnapndodjp',
       edge: 'https://microsoftedge.microsoft.com/addons/detail/okx-wallet/pbpjkcldjiffchgbbndmhojiacbgflha',
       firefox: 'https://addons.mozilla.org/firefox/addon/okexwallet/',
       browserExtension: 'https://okx.com/download',
