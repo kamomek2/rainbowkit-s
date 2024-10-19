@@ -19,6 +19,7 @@ import { trustWallet } from './trustWallet/trustWallet';
 import { walletConnectWallet } from './walletConnectWallet/walletConnectWallet';
 import { xdefiWallet } from './xdefiWallet/xdefiWallet';
 import { zerionWallet } from './zerionWallet/zerionWallet';
+import { bnbchainWallet } from './bnbchainWallet/bnbchainWallet';
 
 export {
   argentWallet,
@@ -42,4 +43,5 @@ export {
   walletConnectWallet,
   xdefiWallet,
   zerionWallet,
+  bnbchainWallet,
 };
