@@ -71,7 +71,7 @@ export const bnbchainWallet = ({
             chains,
             options: {
               // @ts-expect-error
-              getProvider: () => window.okxwallet,
+              getProvider: () => window.BinanceChain,
               ...options,
             },
           });
